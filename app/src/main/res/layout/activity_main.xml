@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/maplayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="hf_no_number"
+    android:orientation="vertical">
+
+    <!--필요에따라 버튼에 애니메이션 넣기-->
+
+    <Button
+        android:id="@+id/zoomlevel1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circle_border"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/zoomlevel2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/zoomlevel1"
+        android:background="@drawable/circle_border"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/zoomlevel3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/zoomlevel2"
+        android:background="@drawable/circle_border"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/zoomlevel4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/zoomlevel3"
+        android:background="@drawable/circle_border"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/zoomlevel5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/zoomlevel4"
+        android:background="@drawable/circle_border"
+        android:text="5" />
+
+
+    <Button
+        android:id="@+id/trackingmod"
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/trackingmod_on"
+        android:layout_marginRight="20dp"/>
+
+
+    <Button
+        android:id="@+id/displayLocation"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@+id/trackingmod"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/locationstop_icon"/>
+
+
+    <Button
+        android:id="@+id/distanceCircle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/displayLocation"
+        android:background="@drawable/circle_default"
+        android:textSize="13dp"
+        android:textColor="#40000000"
+        android:text="@string/Circle" />
+
+
+    <Button
+        android:id="@+id/display_move_on"
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@+id/distanceCircle"
+        android:background="@drawable/displaycontroll_off"
+        android:layout_marginRight="8dp"/>
+
+    <Button
+        android:id="@+id/display_lock_img"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:background="@drawable/screen_lock_icon" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:id="@+id/up"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/up_icon"/>
+    <Button
+        android:layout_centerVertical="true"
+        android:id="@+id/down"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/down_icon"/>
+    <Button
+        android:id="@+id/left"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_icon"/>
+    <Button
+        android:id="@+id/right"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/right_icon"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/zoomlevel_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/zoomlevel1"/>
+
+    <TextView
+        android:id="@+id/zoomlevel_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/zoomlevel2"/>
+
+    <TextView
+        android:id="@+id/zoomlevel_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/zoomlevel3"/>
+
+    <TextView
+        android:id="@+id/zoomlevel_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/zoomlevel4"/>
+
+    <TextView
+        android:id="@+id/zoomlevel_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/zoomlevel5"/>
+
+
+    <TextView
+        android:id="@+id/display_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/displayStop"/>
+
+    <TextView
+        android:id="@+id/display_lock_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/displayStopRelase"/>
+
+    <TextView
+        android:id="@+id/displaySensor_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/displayMove"/>
+
+    <TextView
+        android:id="@+id/displaySensor_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/displayMoveRelase"/>
+
+
+    <TextView
+        android:id="@+id/displayMoveUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/moveUp"/>
+
+    <TextView
+        android:id="@+id/displayMoveDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/moveDown"/>
+
+    <TextView
+        android:id="@+id/displayMoveRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/moveRight"/>
+
+    <TextView
+        android:id="@+id/displayMoveLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/moveLeft"/>
+
+    <TextView
+        android:id="@+id/circle_radius_100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/Circle100"/>
+
+    <TextView
+        android:id="@+id/circle_radius_300"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/Circle300"/>
+
+    <TextView
+        android:id="@+id/circle_radius_500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/Circle500"/>
+
+    <TextView
+        android:id="@+id/circle_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/CircleRelase"/>
+
+    <TextView
+        android:id="@+id/move_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/mylocationMove"/>
+
+    <TextView
+        android:id="@+id/stop_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/mylocationMoveRelase"/>
+
+    <TextView
+        android:id="@+id/next_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/NextMarker"/>
+
+
+    <TextView
+        android:id="@+id/before_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/BeforeMarker"/>
+
+    <TextView
+        android:id="@+id/select_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/SelectMarker"/>
+
+    <TextView
+        android:id="@+id/trackingmodOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/TrackingmodOn"/>
+
+    <TextView
+        android:id="@+id/trackingmodOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/TrackingmodOff"/>
+
+
+    <TextView
+        android:id="@+id/zoomIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/zoomIn"/>
+
+    <TextView
+        android:id="@+id/zoomOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/zoomOut"/>
+
+    <TextView
+        android:id="@+id/designateLocatin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/markerLocation"/>
+
+
+    <TextView
+        android:id="@+id/allMarkerShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/allmarker"/>
+
+    <TextView
+        android:id="@+id/allMarkerHide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1px"
+        android:text="@string/hideAllmarker"/>
+
+
+
+</RelativeLayout>
