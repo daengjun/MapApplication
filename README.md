@@ -11,10 +11,18 @@
 
 ----------
   
-**1. 반경 기능**  
+**2. 반경 기능**  
 
 ![반경 300미터](https://user-images.githubusercontent.com/98893006/183955247-5513365c-252b-4da3-b7f8-2f2362b2120f.png)  
 
 ![반경 500미터](https://user-images.githubusercontent.com/98893006/183955265-284c2166-1f5c-4089-9686-5b32cd57c280.png)
   
 -----------
+
+**3. 줌 레벨 기능**  
+
+![지도화면 줌레벨2](https://user-images.githubusercontent.com/98893006/183956098-6778c90a-87ff-481a-8a57-abea57cef7d0.png)
+  
+-----------
+ 
+
