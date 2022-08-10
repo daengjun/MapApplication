@@ -7,4 +7,6 @@
 
 ![오른쪽으로 이동](https://user-images.githubusercontent.com/98893006/183954706-f7c29e9f-0260-4d7f-b7f6-dabe57c3c3be.png)  
 
-![왼쪽으로이동](https://user-images.githubusercontent.com/98893006/183954716-f3327706-4b02-4a7b-b1ca-92ef48c1479d.png)
+![왼쪽으로이동](https://user-images.githubusercontent.com/98893006/183954716-f3327706-4b02-4a7b-b1ca-92ef48c1479d.png)  
+
+----------
