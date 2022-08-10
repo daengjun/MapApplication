@@ -2,10 +2,14 @@
 **카카오맵 API를 활용하여 만든 지도입니다**  
 **VR 기기에 최적화 되어있습니다**  
 
-![SDASDASDAS](https://user-images.githubusercontent.com/98893006/183958920-3d84e62f-af7e-45d2-8dc6-27dfa42492d8.png)
-
 # 기능 구성
-**1. 화면 이동**   
+**1.초기 화면**  
+
+![SDASDASDAS](https://user-images.githubusercontent.com/98893006/183958920-3d84e62f-af7e-45d2-8dc6-27dfa42492d8.png)  
+
+----------
+
+**2. 화면 이동**   
 
 ![오른쪽으로 이동](https://user-images.githubusercontent.com/98893006/183954706-f7c29e9f-0260-4d7f-b7f6-dabe57c3c3be.png)  
 
@@ -13,7 +17,7 @@
 
 ----------
   
-**2. 반경 기능**  
+**3. 반경 기능**  
 
 ![반경 300미터](https://user-images.githubusercontent.com/98893006/183955247-5513365c-252b-4da3-b7f8-2f2362b2120f.png)  
 
@@ -21,13 +25,13 @@
   
 -----------
 
-**3. 줌 레벨 기능**  
+**4. 줌 레벨 기능**  
 
 ![지도화면 줌레벨2](https://user-images.githubusercontent.com/98893006/183956098-6778c90a-87ff-481a-8a57-abea57cef7d0.png)
   
 -----------
 
-**4. 실시간 내위치 표시**    
+**5. 실시간 내위치 표시**    
 
 ![반경 해제 2](https://user-images.githubusercontent.com/98893006/183956512-21f575ca-96e7-4f72-b2e6-d0bd3139cbc6.png)
 
