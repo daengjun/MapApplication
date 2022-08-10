@@ -1,6 +1,8 @@
 # MapApplication
 **카카오맵 API를 활용하여 만든 지도입니다**  
-**VR 기기에 최적화 되어있습니다**
+**VR 기기에 최적화 되어있습니다**  
+
+![SDASDASDAS](https://user-images.githubusercontent.com/98893006/183958920-3d84e62f-af7e-45d2-8dc6-27dfa42492d8.png)
 
 # 기능 구성
 **1. 화면 이동**   
