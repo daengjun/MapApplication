@@ -3,7 +3,7 @@
 **VR 기기에 최적화 되어있습니다**  
 
 # 기능 구성
-**1.초기 화면**  
+**1.초기 홈 화면 (지도열기 버튼과/종료버튼으로 구성)**  
 
 ![SDASDASDAS](https://user-images.githubusercontent.com/98893006/183958920-3d84e62f-af7e-45d2-8dc6-27dfa42492d8.png)  
 
