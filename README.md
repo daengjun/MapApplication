@@ -1,5 +1,5 @@
 # MapApplication
-**카카오맵 API를 활용하여 만든 VR 기기에 최적화 되어 있는 지도입니다.**  
+**카카오맵 API를 활용한 VR 기기에 최적화 되어 있는 지도앱 입니다.**  
 >**카카오맵 API 링크 : https://apis.map.kakao.com/**  
 
 # 기능 구성
