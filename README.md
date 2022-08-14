@@ -38,6 +38,11 @@
 
 ![지도화면 줌레벨2](https://user-images.githubusercontent.com/98893006/183956098-6778c90a-87ff-481a-8a57-abea57cef7d0.png)
   
+![지도화면 줌레벨4](https://user-images.githubusercontent.com/98893006/184545682-ec0c4983-7453-44ac-aaa8-73ac7f553104.png)
+  
+![지도화면 줌레벨5](https://user-images.githubusercontent.com/98893006/184545687-1b84d080-6444-416a-9680-d0b959885699.png)
+
+  
 -----------
 
 **5. 실시간 내위치 표시**
