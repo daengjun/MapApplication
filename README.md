@@ -3,13 +3,15 @@
 **VR 기기에 최적화 되어있습니다**  
 
 # 기능 구성
-**1.초기 홈 화면 (두개의 버튼으로 구성)**  
+**1.초기 홈 화면 (두개의 버튼으로 구성)** 
 
 ![SDASDASDAS](https://user-images.githubusercontent.com/98893006/183958920-3d84e62f-af7e-45d2-8dc6-27dfa42492d8.png)  
 
 ----------
 
-**2. 화면 이동**   
+**2. 화면 이동**  
+
+**위 아래 왼쪽 오른쪽으로 버튼이 구성되어있으며 음성만으로 화면이동을 하기 위해 만든 기능** 
 
 ![오른쪽으로 이동](https://user-images.githubusercontent.com/98893006/183954706-f7c29e9f-0260-4d7f-b7f6-dabe57c3c3be.png)  
 
